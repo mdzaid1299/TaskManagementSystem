@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ### **6️⃣ Run Flask Service**
 ```sh
-python app.py
+python flask_service.py
 ```
 📍 **Flask API Running At:** `http://127.0.0.1:5000/flask-tasks`
 
@@ -75,9 +75,5 @@ python app.py
 ### **7️⃣ Open Frontend in Browser**
 - Navigate to the `frontend/` folder.
 - Open `index.html` in a browser.
-- Update `script.js` to match the backend API URL:
-  ```js
-  const apiUrl = "http://127.0.0.1:8000/api/tasks/";
-  ```
 
 ---
